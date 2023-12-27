@@ -5,13 +5,12 @@ public class Main {
 
         // Test case -1
 
-        Integer num1 = 10;
-        Integer num2 = 5;
-        Integer num3 = 3;
+        Float num1 = (float)10.287;
+        Float num2 = (float)5.378;
+        Float num3 = (float)10.2865;
 
-        getMaximum<Integer> maxi = new getMaximum<Integer>(num1, num2, num3);
-        System.out.println("The maximum of " + num1 +' ' + num2 + ' ' + num3 +" is "+ maxi.find_max());
-
+        getMaximum<Float> maxi1 = new getMaximum<Float>(num1, num2, num3);
+        System.out.println("The maximum of " + num1 +' ' + num2 + ' ' + num3 +" is "+ maxi1.find_max());
 
     }
 }
